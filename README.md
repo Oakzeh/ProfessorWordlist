@@ -2,6 +2,7 @@
 Professor Wordlist is a free open source command line tool written in python, With the aim of generating custom wordlists with a variety of unique parameters and functions providing many possibiliities.
 
 --------------------------------------------------Positional arguments--------------------------------------------------:
+
   string                The String is a required parameter.  [%d, %s, %l, %L, %w, %W, %X, %Y, %Z]
 
                         %d : digit [1-9]            %l : lowercase letter [a-z]   %w : Wordlist word's
@@ -9,6 +10,7 @@ Professor Wordlist is a free open source command line tool written in python, Wi
                         %X : Custom List            %Y : Custom list #2           %Z : Custom list #3
 
 --------------------------------------------------Optional arguments--------------------------------------------------:
+
   -h | --help            show this help message and exit
   
   -C | --custom          A custom list for characters of your choice, replace %X. Example: test_%X -C "ÀÐÈ123&!"
