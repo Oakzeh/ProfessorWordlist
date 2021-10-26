@@ -33,4 +33,6 @@ Professor Wordlist is a free open source command line tool written in python, Wi
           -np | --noprint        No Print: Will not print each combination.
 
           -o | --output          file path: -o test.txt
+          
+          https://www.patreon.com/oakzeh 
 
