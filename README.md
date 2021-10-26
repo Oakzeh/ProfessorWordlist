@@ -1,5 +1,5 @@
 # Professor Wordlist
-Professor Wordlist is a free open source command line tool written in python, With the aim of generating custom wordlists with a variety of unique parameters and functions providing many possibiliities.
+Professor Wordlist is a free open source command line tool written in python, With the aim of generating custom wordlists with a variety of unique parameters and functions providing many possibilities.
 
 --------------------------------------------------Positional arguments--------------------------------------------------:
 
