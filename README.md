@@ -38,12 +38,12 @@ Professor Wordlist is a free open source command line tool written in python, Wi
  Any suggestions to improve the software please let me know!
  Open to all Ideas and Improvements!
  
-               Discord #Oakzeh5250
-               Email: byoakk@gmail.com
+        Discord #Oakzeh5250
+        Email: byoakk@gmail.com
 
  The software is free to use! please use responsibly
  Feel Free to support me below :)
- 
-               https://www.paypal.me/oakzeh 
-               https://www.patreon.com/oakzeh 
+
+        https://www.paypal.me/oakzeh 
+        https://www.patreon.com/oakzeh 
 
