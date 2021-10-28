@@ -93,8 +93,6 @@ def wordlist(location):
             print(error, "\nPlease specify wordlist path when using %w")
             # Error prevention only if user entered a location
 
-'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#!@$%%^&*?()_-+={[}]|\:;"\'<,>.`/'
-
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 if not letters:
     alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
