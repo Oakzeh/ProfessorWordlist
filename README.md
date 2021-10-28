@@ -98,8 +98,18 @@ Professor Wordlist is a free open source command line tool written in python, Wi
        test_input#         test_input!         "Replace"
        test_input@         test_input$          -r --replace
        test_input%         test_input^           ...
-
-       
+ 
+              
+> pw.py %L%d%d%d%s --output outputfile.txt
+          
+          ...
+          U999*           X999*
+          V999*           Y999*
+          W999*           Z999*
+          
+          234000 combinations have been successfully written to outputfile.txt
+   
+         
 > pw.py %w_%L_%s -S -L --wordlist list.txt -o  outputfile.txt --noprint
      
        1664 combinations have been successfully written to outputfile.txt
