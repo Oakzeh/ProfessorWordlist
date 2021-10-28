@@ -54,7 +54,7 @@ parser.add_argument('-L', '--letters', type=str, nargs='?', default=True, const=
 
 parser.add_argument('-S', '--symbols', type=str, nargs='?', default='!@#$%^&?*',
                     const='#!@$%%^&*?()_-+={[}]|\:;"\'<,>.`/', metavar='',
-                    help='Uses the full comprehensive symbol range when replacing %%s:  \nFull list:  #!@$%^&*?()_-+={[}]|\:;"\'<,>.`/')
+                    help='Uses the full comprehensive symbol range when replacing %%s:  \nFull list:  #!@$%%^&*?()_-+={[}]|\:;"\'<,>.`/')
 
 parser.add_argument('-np', '--noprint', type=str, nargs='?', default=True, const=False, metavar='',
                     help="No Print: Will not print each combination.")
