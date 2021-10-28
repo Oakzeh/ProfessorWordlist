@@ -40,10 +40,72 @@ Professor Wordlist is a free open source command line tool written in python, Wi
  
         Discord #Oakzeh5250
         Email: byoakk@gmail.com
+        twitter @Oakzeh
 
- The software is free to use! please use responsibly
+ The software is free to use! 
  Feel Free to support me below :)
 
         https://www.paypal.me/oakzeh 
         https://www.patreon.com/oakzeh 
+        
+## USAGE & EXAMPLES
+                                                 
+> pw.py test%d                     
+       
+       test0         test5         "digits"    
+       test1         test6         range [0-9]       
+       test2         test7
+       test3         test8
+       test4         test9
+       
+       
+> pw.py test%l
+       
+       testa         testb         "lowercase"
+       testc         testd          range [a-z]
+       teste         testf         ...
+       
+       
+> pw.py test%L
+     
+       testA         testB         "uppercase"
+       testC         testD          range [A-Z]
+       testE         testF         ...
+             
 
+> pw.py test%s
+     
+       test!         test@         "basic symbols"
+       test#         test$          range [!@#$%^&?*]
+       test%         test*          ...
+             
+   
+> pw.py test%X -C ABC123
+     
+       testA         testB         "custom range"
+       testC         test1          range [ABC123]
+       test2         test3          ...
+
+> pw.py %W_%d -W Red Blue Green
+     
+       Red_0          Red_1  ...       "custom Words"
+       Blue_0         Blue_1  ...        -W --words
+       Green_0        Green_1  ...              
+             
+             
+> pw.py replace_input%s -S -r replace test
+     
+       test_input#         test_input!         "Replace"
+       test_input@         test_input$          -r --replace
+       test_input%         test_input^           ...
+
+       
+> pw.py %w_%L_%s -S -L --wordlist list.txt -o  outputfile.txt --noprint
+     
+       1664 combinations have been successfully written to outputfile.txt
+       
+       *Wordlist (--wordlist or -w), All letters (-L), Comprehensive Symbol range (-S or --symbols), 
+       Output (-o or --output) and not print every combination (-np or --noprint)*
+
+                    
+       
