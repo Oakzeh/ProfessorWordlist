@@ -2,7 +2,6 @@
 from itertools import product
 import argparse
 from argparse import RawTextHelpFormatter
-from tqdm import tqdm
 
 parser = argparse.ArgumentParser(description='''
  ,ggggggggggg,                                                                            ,ggg,      gg      ,gg                                                           
