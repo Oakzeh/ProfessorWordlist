@@ -53,7 +53,7 @@ parser.add_argument('-L', '--letters', type=str, nargs='?', default=True, const=
                     help="All Letters, %%L will represent lowercase and capital alphabet range [a-zA-Z]")
 
 parser.add_argument('-S', '--symbols', type=str, nargs='?', default='!@#$%^&?*',
-                    const='#!@$%%^&*?()_-+={[}]|\:;"\'<,>.`/', metavar='',
+                    const='#!@$%^&*?()_-+={[}]|\:;"\'<,>.`/', metavar='',
                     help='Uses the full comprehensive symbol range when replacing %%s:  \nFull list:  #!@$%%^&*?()_-+={[}]|\:;"\'<,>.`/')
 
 parser.add_argument('-np', '--noprint', type=str, nargs='?', default=True, const=False, metavar='',
