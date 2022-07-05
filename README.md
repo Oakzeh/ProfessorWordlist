@@ -34,18 +34,6 @@ Professor Wordlist is a free open source command line tool written in python, Wi
 
           -o | --output          file path: -o test.txt
           
-          
- Any suggestions to improve the software please let me know!
- Open to all Ideas and Improvements!
- 
-        Discord #Oakzeh5250
-        Email: byoakk@gmail.com
-        twitter @Oakzeh
-
- The software is free to use! 
- Feel Free to support me below :)
- 
-        https://www.patreon.com/oakzeh 
         
 ## USAGE & EXAMPLES
                                                  
